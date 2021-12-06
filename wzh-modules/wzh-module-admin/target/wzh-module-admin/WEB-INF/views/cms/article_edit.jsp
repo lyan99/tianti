@@ -201,8 +201,8 @@
 	</div>
   </div>
  </div>
-	<script type="text/javascript" src="${pageContext.request.contextPath}/ueditor/editor_config.js"></script>
-	<script type="text/javascript" src="${pageContext.request.contextPath}/ueditor/editor_all.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/ueditor/ueditor.config.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/ueditor/ueditor.all.js"></script>
 	<script src="${pageContext.request.contextPath}/static/js/uploadify/jquery.uploadify.js"></script>
 	<script type="text/javascript">
 		//表单验证
@@ -270,8 +270,7 @@
 				}
 			});
        }
-    
-	   UE.getEditor('content',{
+       window.UE.getEditor('content',{
 		    initialFrameWidth : 700,
 		    initialFrameHeight: 350
 	   });
