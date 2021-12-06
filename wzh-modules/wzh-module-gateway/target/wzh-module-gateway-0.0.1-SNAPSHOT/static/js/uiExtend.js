@@ -96,7 +96,7 @@ jc.uiExtend("header", {
             html += '<li data-current="' + (curDataId) + '" class="dropdown ' + (currentClass) + '">';
             html += '<a href="javascript:;" onclick="window.router(\'' + (routerName) + '\',{rootColumnId:\'' + (curDataId) + '\'},true)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">' + (curDataName) + '<span class="caret"></span><span class="underline"></span></a>';
 
-            html += '<ul data-root-column-id="' + curDataId + '" data-level="1" class="dropdown-menu" ' + (i == 0 ? 'style="display:none;"' : "") + '>';
+            html += '<ul data-root-column-id="' + curDataId + '" data-level="1" class="dropdown-menu"  style="display:none;">';
 
             /*
             html += '<li><a href="javascript:;">学校简介</a></li>';
@@ -176,8 +176,8 @@ jc.uiExtend("footer", {
         html += '<div class="row">';
         html += '<div class="col-md-5 col-sm-12">';
         html += '<h4>关于 温州话</h4>';
-        html += '<p class="mt20"><i class="icon"></i>地址：广东省广州市天河区五山路381号</p>'
-        html += '<p><i class="icon"></i>邮箱：xuzhexu@139.com</p>'
+        html += '<p class="mt20"><i class="icon"></i>地址：-</p>'
+        html += '<p><i class="icon"></i>邮箱：-</p>'
         html += '</div>';
 
         html += '<div class="col-md-3 col-sm-12">';
@@ -199,71 +199,18 @@ jc.uiExtend("footer", {
 
         html += '<div class="col-md-2 col-sm-12">';
         html += '<div class="mt20 text-center">';
-        html += '<img style="width:120px;" src="../../static/images/code_1.png">';
-        html += '<p>(微信打赏)</p>';
         html += '</div>';
         html += '</div>';
 
         html += '</div>';
         html += '</div>';
         html += '<div class="copy-right">';
-        html += '<span>© 2013-2017</span>';
-        html += '版权所有 温州话 Copyright © 1998 - 2017 Tencent. All Rights Reserved';
-        html += '<span>粤公网安备11010802014853</span>';
+        html += '版权所有 Copyright © 2021 . All Rights Reserved';
+        html += '<span>x公网安备xxxxxxx</span>';
         html += '</div>';
         html += '</div>';
 
 
-
-
-        /*
-        <div class="hidden-print">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5 col-sm-12">
-                        <h4>关于 BootCDN</h4>
-                        <p>BootCDN 是 <a href="http://www.bootcss.com/" target="_blank">Bootstrap 中文网</a>和<a href="https://www.upyun.com/" target="_blank">又拍云</a>共同支持并维护的前端开源项目免费 CDN 服务，由<a href="https://www.upyun.com/" target="_blank">又拍云</a>提供全部 CDN 支持，致力于为 Bootstrap、jQuery、Angular 一样优秀的前端开源项目提供稳定、快速的免费 CDN 服务。BootCDN 所收录的开源项目主要同步于 <a href="https://github.com/cdnjs/cdnjs" target="_blank">cdnjs</a> 仓库。</p><p>自2013年10月31日上线以来已经为上万家网站提供了稳定、可靠的免费 CDN 服务。</p><p>反馈或建议请发送邮件至：cdn@bootcss.com</p>
-                    </div>
-                    <div class="col-md-2 col-sm-12">
-                        <h4>友情链接</h4>
-                        <ul class="list-unstyled">
-                            <li><a href="http://www.bootcss.com/" target="_blank">Bootstrap 中文网</a></li>
-                            <li><a href="http://www.ghostchina.com/" target="_blank">Ghost 中国</a></li>
-                            <li><a href="http://www.golaravel.com/" target="_blank">Laravel 中文网</a></li>
-                            <li><a href="http://www.jquery123.com/" target="_blank">jQuery 中文 API</a></li>
-                            <li><a href="http://pkg.phpcomposer.com/" target="_blank">Packagist 中国镜像</a></li>
-                            <li><a href="http://www.phpcomposer.com/" target="_blank">Composer 中文网</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                        <h4>我们用到的技术</h4>
-                        <ul class="list-unstyled list-inline">
-                            <li><a href="http://www.bootcss.com/" target="_blank">Bootstrap</a></li>
-                            <li><a href="http://www.ghostchina.com/" target="_blank">Ghost</a></li>
-                            <li><a href="http://www.jquery123.com/" target="_blank">jQuery</a></li>
-                            <li><a href="http://babeljs.cn/" target="_blank">Babeljs</a></li>
-                            <li><a href="http://lodashjs.com/" target="_blank">Lodash</a></li>
-                            <li><a href="http://www.nodeapp.cn/" target="_blank">Node</a></li>
-                            <li><a href="http://www.gruntjs.net/" target="_blank">Grunt</a></li>
-                            <li><a href="http://www.gulpjs.com.cn/" target="_blank">Gulp</a></li>
-                            <li><a href="http://www.npmjs.com.cn/" target="_blank">NPM</a></li>
-                            <li><a href="https://webpackjs.com/" target="_blank">webpack</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2 col-sm-12">
-                        <h4>动力源自</h4><p>
-                            <a href="https://www.upyun.com/" style="border-bottom: none" target="_blank"><img src="/assets/img/Upyun_LOGO_300.png" style="width: 120px" alt="又拍云存储"></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="copy-right">
-                <span>© 2013-2017</span>
-                <a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备11008151号</a>
-                <span>京公网安备11010802014853</span>
-            </div>
-        </div>
-        */
 
 
         return html;
@@ -349,7 +296,7 @@ jc.uiExtend("titleStyle1", {
         html += '<i></i>';
         html += '<h4>' + this.getString(data.data_title_text) + '</h4>';
         html += '</div>';
-        html += '<div class="pull-right"><a href="' + this.getString(data.data_more_href) + '" title="' + this.getString(data.data_more_text) + '">' + this.getString(data.data_more_text) + '</a></div>';
+        // html += '<div class="pull-right"><a href="' + this.getString(data.data_more_href) + '" title="' + this.getString(data.data_more_text) + '">' + this.getString(data.data_more_text) + '</a></div>';
         html += '</div>';
 
         return html;
@@ -389,9 +336,9 @@ jc.uiExtend("titleStyle2", {
         html += '<i></i>';
         html += '<h4>' + this.getString(data.data_title_text) + '</h4>';
         html += '</div>';
-        if (this.getString(data.data_title_text)) {
-            html += '<div class="pull-right"><a href="' + this.getString(data.data_more_href) + '" title="' + this.getString(data.data_more_text) + '">' + this.getString(data.data_more_text) + '</a></div>';
-        }
+        // if (this.getString(data.data_title_text)) {
+        //     html += '<div class="pull-right"><a href="' + this.getString(data.data_more_href) + '" title="' + this.getString(data.data_more_text) + '">' + this.getString(data.data_more_text) + '</a></div>';
+        // }
         html += '</div>';
 
         return html;

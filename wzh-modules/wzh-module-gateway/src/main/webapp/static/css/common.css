@@ -317,6 +317,9 @@ a.abtn.default {
     padding-right: 80px;
     height: 32px;
     cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
 }
 
 .J_textList .t_list .l_item .i_link {

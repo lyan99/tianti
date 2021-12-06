@@ -12,7 +12,8 @@ jc.data.setup(function (data) {
 
     for (var i = 0, l = list.length; i < l; i++) {
 
-        var firstClass = i == 0 ? "first" : "";
+        // var firstClass = i == 0 ? "first" : "";
+        var firstClass = "first";
 
         var curList = list[i];
 
