@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wzh-org" />
+        <module name="wzh-module-gateway" />
+        <module name="wzh-common" />
+        <module name="wzh-module-interface" />
+        <module name="wzh-cms" />
+        <module name="wzh-module-admin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tianti" target="1.8" />
+      <module name="tianti-cms" target="1.8" />
+      <module name="tianti-common" target="1.8" />
+      <module name="tianti-module-admin" target="1.8" />
+      <module name="tianti-module-gateway" target="1.8" />
+      <module name="tianti-module-interface" target="1.8" />
+      <module name="tianti-modules" target="1.8" />
+      <module name="tianti-org" target="1.8" />
+      <module name="wzh" target="1.8" />
+      <module name="wzh-cms" target="1.8" />
+      <module name="wzh-common" target="1.8" />
+      <module name="wzh-module-admin" target="1.8" />
+      <module name="wzh-module-gateway" target="1.8" />
+      <module name="wzh-module-interface" target="1.8" />
+      <module name="wzh-modules" target="1.8" />
+      <module name="wzh-org" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tianti.iml" filepath="$PROJECT_DIR$/tianti.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wzh.iml" filepath="$PROJECT_DIR$/wzh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wzh-cms/wzh-cms.iml" filepath="$PROJECT_DIR$/wzh-cms/wzh-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wzh-common/wzh-common.iml" filepath="$PROJECT_DIR$/wzh-common/wzh-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wzh-modules/wzh-module-admin/wzh-module-admin.iml" filepath="$PROJECT_DIR$/wzh-modules/wzh-module-admin/wzh-module-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wzh-modules/wzh-module-gateway/wzh-module-gateway.iml" filepath="$PROJECT_DIR$/wzh-modules/wzh-module-gateway/wzh-module-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wzh-modules/wzh-module-interface/wzh-module-interface.iml" filepath="$PROJECT_DIR$/wzh-modules/wzh-module-interface/wzh-module-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wzh-modules/wzh-modules.iml" filepath="$PROJECT_DIR$/wzh-modules/wzh-modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wzh-org/wzh-org.iml" filepath="$PROJECT_DIR$/wzh-org/wzh-org.iml" />
+    </modules>
+  </component>
+</project>

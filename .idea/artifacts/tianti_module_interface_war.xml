@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tianti-module-interface:war">
+    <output-path>$PROJECT_DIR$/tianti-modules/tianti-module-interface/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>tianti-module-interface</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="tianti-module-interface.war">
+      <element id="artifact" artifact-name="tianti-module-interface:war exploded" />
+    </root>
+  </artifact>
+</component>

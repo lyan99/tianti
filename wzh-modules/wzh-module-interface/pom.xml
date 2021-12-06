@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.femc.wzh.modules</groupId>
+    <artifactId>wzh-modules</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.femc.wzh.inter</groupId>
+  <artifactId>wzh-module-interface</artifactId>
+  <version>${wzh.version}</version>
+  <packaging>war</packaging>
+  <name>wzh-module-interface</name>
+  <description>wzh-module-interface</description>
+  
+  <dependencies>
+        <dependency>
+			<groupId>com.femc.wzh.common</groupId>
+			<artifactId>wzh-common</artifactId>
+			<version>${wzh.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.femc.wzh.cms</groupId>
+			<artifactId>wzh-cms</artifactId>
+			<version>${wzh.version}</version>
+		</dependency>
+  </dependencies>
+  <build>
+    <finalName>wzh-module-interface</finalName>
+  </build>
+</project>

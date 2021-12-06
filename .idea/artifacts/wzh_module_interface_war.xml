@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="wzh-module-interface:war">
+    <output-path>$PROJECT_DIR$/wzh-modules/wzh-module-interface/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>wzh-module-interface</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="wzh-module-interface.war">
+      <element id="artifact" artifact-name="wzh-module-interface:war exploded" />
+    </root>
+  </artifact>
+</component>
